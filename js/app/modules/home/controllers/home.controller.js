@@ -1,8 +1,8 @@
 angular.module('angularRestaurant.home').controller('HomeController',
-  function ($log, SeedData, $uibModal) {
+  function ($uibModal) {
 
     var _this = this;
-    _this.data = SeedData;
+    _this.data = "heh"
 
     _this.open = function (item) {
       $uibModal.open({

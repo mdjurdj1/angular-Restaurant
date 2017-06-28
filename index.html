@@ -12,13 +12,15 @@
 
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
+      <header ui-view="header"></header>
       <div class="site-content" ui-view="content"></div>
-
+      <footer ui-view="footer"></footer>
 
       <script src="bower_components/angular/angular.js"></script>
       <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
       <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
       <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+      <script src="bower_components/angular-resource/angular-resource.js"></script>
 
       <script src="js/app/modules/main/app.module.js"></script>
       <script src="js/app/modules/main/app-config.js"></script>
