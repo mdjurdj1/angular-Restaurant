@@ -7,6 +7,11 @@
   padding-bottom: 0;
 }
 
+h1#restaurant_name {
+  font-family: 'Pacifico', cursive;
+  color: #F6E8C5
+}
+
 #welcome {
   float: right;
   padding-right: 2em;
@@ -16,7 +21,6 @@
   background-color: #800000;
   border-left: 5px solid black;
   color: white;
-  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
 }
 
 div.home-info {
@@ -28,4 +32,10 @@ div.home-info {
 
 div.home-info p {
   margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+div#main-menu {
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
