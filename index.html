@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
   <head>
     <meta charset="utf-8">
     <title>Angular Restaurant</title>
+
+    <!-- CSS import files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="js/app/assets/app.css">
+
   </head>
-  <body ng-app="angularRestaurant">
-      <h1>This is our angular app.</h1>
+
+  <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
+
+      <div class="site-content" ui-view="content"></div>
+
+
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+      <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+      <script src="js/app/modules/main/app.module.js"></script>
+      <script src="js/app/modules/main/app-config.js"></script>
+      <script src="js/app/modules/main/controllers/app.controller.js"></script>
+      <script src="js/app/modules/main/controllers/header.controller.js"></script>
+      <script src="js/app/modules/main/controllers/footer.controller.js"></script>
+
+
+      <script src="js/app/core/core.module.js"></script>
+      <script src="js/app/core/services/seed-data.factory.js"></script>
+
+      <!-- Home page module -->
+      <script src="js/app/modules/home/home.module.js"></script>
+      <script src="js/app/modules/home/home.routes.js"></script>
+      <script src="js/app/modules/home/controllers/home.controller.js"></script>
+      <script src="js/app/modules/home/controllers/modal.controller.js"></script>
+
+      <!-- Tables page module -->
+      <script src="js/app/modules/tables/tables.module.js"></script>
+      <script src="js/app/modules/tables/tables.routes.js"></script>
+      <script src="js/app/modules/tables/tables.controller.js"></script>
+
   </body>
 </html>
