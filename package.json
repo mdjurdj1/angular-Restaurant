@@ -1,0 +1,14 @@
+{
+  "name": "angular-restaurant",
+  "version": "1.0.0",
+  "description": "A simple Angular-based restaurant SPA, using ui-router & bootstrap",
+  "scripts": {
+    "live": "live-server",
+    "start": "npm run live"
+  },
+  "author": "Michael Djurdjevic",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^0.9.2"
+  }
+}

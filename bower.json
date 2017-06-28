@@ -1,0 +1,24 @@
+{
+  "name": "angular-restaurant",
+  "description": "A simple Angular-based restaurant SPA, using ui-router & bootstrap",
+  "main": "",
+  "authors": [
+    "Michael Djurdjevic"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "^2.5.0",
+    "angular-ui-router": "ui-router#^1.0.4",
+    "angular": "1.5.11",
+    "jquery": "^3.2.1"
+  }
+}
