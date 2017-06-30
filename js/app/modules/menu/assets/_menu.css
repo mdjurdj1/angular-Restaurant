@@ -20,3 +20,19 @@ h3.Railway {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
+
+img.maxed {
+  width: 180px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+/*MODAL STYLING*/
+
+div.card {
+  margin-bottom: 2em;
+}
+
+h3.modal-title {
+  font-size: 2em;
+}
