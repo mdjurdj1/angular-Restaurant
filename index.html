@@ -16,7 +16,9 @@
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
       <header ui-view="header"></header>
-      <div class="site-content" ui-view="content"></div>
+        <div id="sticky_bg">
+          <div class="site-content" ui-view="content"></div>
+        </div>
       <footer ui-view="footer"></footer>
 
       <script src="bower_components/angular/angular.js"></script>

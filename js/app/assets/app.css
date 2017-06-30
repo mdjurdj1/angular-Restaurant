@@ -1,3 +1,15 @@
+/*STICKY-BG STYLING*/
+
+div#sticky_bg {
+  background-image: url("http://www.bethelbulletin.com/wp-content/uploads/2015/02/re.jpg");
+  background-size: cover;
+  height: 340px;
+
+  -webkit-box-shadow: 0px 10px 39px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 39px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 39px 1px rgba(0,0,0,0.75);
+}
+
 /*NAVBAR STYLING*/
 
 #navbar {
@@ -7,9 +19,26 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 1.3em;
+  margin-bottom: 0em;
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: 0 8px 6px -6px #999;
 }
 
 .navbar-brand {
   font-size: 1.3em;
   color: black !important;
+}
+
+/*FOOTER STYLING*/
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
