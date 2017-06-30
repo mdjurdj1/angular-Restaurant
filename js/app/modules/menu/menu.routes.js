@@ -7,6 +7,10 @@ angular.module('angularRestaurant.menu').config(function($stateProvider) {
         bodyClass: 'home'
       },
      views: {
+       'header': {
+         controller: 'HeaderController as header',
+         templateUrl: 'js/app/modules/main/templates/header.html'
+       },
        'content': {
          controller: 'MenuController as menu',
          templateUrl: 'js/app/modules/menu/templates/menu.html'

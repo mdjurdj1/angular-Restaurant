@@ -1,3 +1,15 @@
-h1 {
-  color: blue
+/*NAVBAR STYLING*/
+
+#navbar {
+  width: 100%;
+  padding-left: 15em;
+  padding-right: 15em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+  color: black !important;
 }

@@ -1,11 +1,6 @@
 angular.module('angularRestaurant.home').config(function($stateProvider) {
    $stateProvider.state('home', {
      url: '/home',
-     data: {
-        pageTitle: 'Home',
-        access: 'private',
-        bodyClass: 'home'
-      },
      views: {
        'content': {
          controller: 'HomeController as home',
