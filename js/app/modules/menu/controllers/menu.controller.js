@@ -1,12 +1,12 @@
 angular.module('angularRestaurant.menu').controller('MenuController',
   function ($uibModal) {
 
-    var _this = this;
-    _this.data = "heh"
+    var vm = this;
+    vm.data = "heh"
 
-    _this.open = function (item) {
+    vm.open = function (item) {
       $uibModal.open({
-        templateUrl: 'modules/home/templates/modal.html',
+        templateUrl: 'js/app/modules/menu/templates/modal.html',
         controller: 'ModalController as modal',
         size: 'md',
         resolve: {
