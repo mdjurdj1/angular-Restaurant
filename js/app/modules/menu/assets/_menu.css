@@ -29,8 +29,17 @@ img.maxed {
 
 /*MODAL STYLING*/
 
+h4.category-widget-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
 div.card {
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
+}
+
+div.card-footer {
+  padding-left: 2em;
 }
 
 h3.modal-title {

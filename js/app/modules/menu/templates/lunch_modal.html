@@ -1,0 +1,28 @@
+<div class="modal-header">
+  <button type="button" class="close" ng-click="modal.close()">
+    <span aria-hidden="true"></span><span class="sr-only">Close</span>
+  </button>
+  <h3 class="modal-title Railway">{{modal.item.name}}</h3>
+</div>
+
+<div class="modal-body">
+
+    <div class="row">
+      <div class="col-md-4 menu-card" ng-repeat="item in modal.lunch_data">
+
+        <div class="card card-default category-widget">
+          <div class="card-body category-widget-icon">
+            <img class="img-responsive center-block maxed" ng-src="{{item.image}}">
+          </div>
+          <div class="card-footer">
+            <h4 class="category-widget-title">{{item.name}}</h4>
+            <p class="category-widget-description">
+             <strong>{{item.price}}</strong> | {{item.description}}
+            </p>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+</div>

@@ -5,7 +5,7 @@ angular.module('angularRestaurant.menu').controller('MenuController',
 
     vm.open_lunch = function (item) {
       $uibModal.open({
-        templateUrl: 'js/app/modules/menu/templates/modal.html',
+        templateUrl: 'js/app/modules/menu/templates/lunch_modal.html',
         controller: 'ModalController as modal',
         size: 'lg',
         resolve: {
@@ -18,7 +18,7 @@ angular.module('angularRestaurant.menu').controller('MenuController',
 
     vm.open_dinner = function (item) {
       $uibModal.open({
-        templateUrl: 'js/app/modules/menu/templates/modal.html',
+        templateUrl: 'js/app/modules/menu/templates/dinner_modal.html',
         controller: 'ModalController as modal',
         size: 'lg',
         resolve: {
